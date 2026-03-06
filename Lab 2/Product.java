@@ -10,9 +10,9 @@ public class Product {
         this.id = id_;
         this.name = name_;
         this.price = price_;
-        this.brand = brand_;
-        this.category = category_;
-        this.customerRating = customerRating_;
+        this.brand = brand_; /* costco, best buy, general */
+        this.category = category_; /* consumables, lifestyle, electronics */
+        this.customerRating = customerRating_; //out of 5
     }
     String getId() { return this.id; }
     String getName() { return this.name; }
