@@ -21,11 +21,6 @@ public class Product {
     String getCategory() { return this.category;}
     double getCustomerRating() { return this.customerRating; }
     void info() {
-        System.out.println("ID: " + this.id);
-        System.out.println("Name: " + this.name);
-        System.out.println("Price: " + this.price);
-        System.out.println("Brand: " + this.brand);
-        System.out.println("Category: " + this.category);
-        System.out.println("Rating: " + this.customerRating);
+        System.out.println("ID: " + this.id + ", " + this.name + ", " + this.price + ", " + this.brand + ", " + this.category + ", " + this.customerRating);
     }
 }
