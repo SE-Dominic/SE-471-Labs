@@ -14,7 +14,5 @@ public class Main {
         cmm.selectProgram(4);       // load Espresso from flash
         cmm.addCondiments("CVXX");  // Cream, Vanilla, two Chocolates
         cmm.brew();
- 
-        cmm.printSalesReport();
     }
 }
