@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-
 public class CMM {
     int powerLED;
     int typeLED;
